@@ -12,12 +12,12 @@
             <table>
               <tr>
                   <td>
-                      Hi Git
+                      <asp:Label ID="Label1" runat="server" Text="My Name"></asp:Label>
                   </td>
               </tr>
                 <tr>
                   <td>
-                      How R U - Desai?
+                     <asp:Label ID="lblMyName" runat="server" Text=""></asp:Label>
                   </td>
               </tr>
             </table>
