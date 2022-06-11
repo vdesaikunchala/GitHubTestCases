@@ -67,11 +67,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BS_WebForm1.aspx" />
+    <Content Include="BS_Webpage2.aspx" />
     <Content Include="VD_Git_Testing_1.aspx" />
     <Content Include="VD_Git_Testing_2.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BS_WebForm1.aspx.cs">
+      <DependentUpon>BS_WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BS_WebForm1.aspx.designer.cs">
+      <DependentUpon>BS_WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BS_Webpage2.aspx.cs">
+      <DependentUpon>BS_Webpage2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BS_Webpage2.aspx.designer.cs">
+      <DependentUpon>BS_Webpage2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VD_Git_Testing_1.aspx.cs">
       <DependentUpon>VD_Git_Testing_1.aspx</DependentUpon>
